@@ -1,0 +1,229 @@
+.z_logo {
+  border-bottom: 1px solid #000;
+}
+.z_logo .row > div {
+  text-align: center;
+  border-right: 1px solid #000;
+  height: 40px;
+  line-height: 40px;
+  color: #777777;
+}
+.z_logo .row > div .z_logon {
+  color: #777777;
+}
+.z_logo .row > div:last-child {
+  border-right: 0px solid #000;
+}
+.z_logo .row > div:first-child a {
+  position: relative;
+  color: #777777;
+}
+.z_logo .row > div:first-child a img {
+  position: absolute;
+  top: 20px;
+  left: -2px;
+  display: none;
+  z-index: 10;
+}
+.z_logo .row > div:first-child a:hover > img {
+  display: block;
+}
+.z_nav {
+  margin-bottom: 0px;
+}
+.z_nav .wjhend {
+  height: 80px;
+  line-height: 80px;
+  padding-top: 7px;
+  padding-bottom: 0;
+}
+.z_nav .wjhend .wjsfont {
+  font-size: 70px;
+  color: #777777;
+}
+.z_nav .wjhend .wjsfont:first-child {
+  color: red;
+}
+.z_nav .nav a {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 80px;
+  line-height: 80px;
+  color: #777777;
+}
+.z_slideshow img {
+  width: 100%;
+}
+.z_pay {
+  padding: 50px 0 ;
+}
+.z_pay a {
+  color: #777777;
+  margin-top: 30px;
+}
+.z_pay a span {
+  font-size: 42px;
+}
+.z_pay a h4 {
+  font-size: 22px;
+}
+.z_pay a:hover {
+  color: red;
+}
+.z_line {
+  line-height: 76px;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+}
+.z_line .pull-left a {
+  color: red;
+  border-bottom: 1px dashed red;
+}
+.z_roll .tab-content {
+  padding-top: 30px;
+}
+.z_roll .margin .z_rool_hui {
+  color: #777777;
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 23px 80px 3px 0;
+  box-shadow: 0 0 20px 0 #ccc;
+  margin-top: 20px;
+}
+.z_roll .margin .z_rool_hui .z_left {
+  border-right: 1px dashed #ccc;
+}
+.z_roll .margin .z_rool_hui .z_left h4 {
+  text-align: center;
+}
+.z_roll .margin .z_rool_hui .z_left .left {
+  padding-left: 10px;
+  width: 50%;
+}
+.z_roll .margin .z_rool_hui .z_left .right {
+  padding-right: 10px;
+  text-align: right;
+  width: 50%;
+}
+.z_roll .margin .z_rool_hui .z_right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 100%;
+}
+.z_roll .margin .z_rool_hui .z_right .z_rate {
+  text-align: center;
+  margin-top: 62px;
+}
+.z_roll .margin .z_rool_hui .z_right .z_rate button {
+  width: 20px;
+  padding: 0;
+}
+.z_roll .margin .z_rool_hui .z_right .z_rate button:first-child {
+  color: #12f337;
+  border-color: #12f337;
+}
+.z_roll .margin .z_rool_hui .z_right .z_rate button:nth-child(2) {
+  color: red;
+  border-color: red;
+}
+.z_roll .margin .z_rool_hui .z_right:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  top: -10px;
+  left: -10px;
+  box-shadow: 0px 2px 5px 1px #ccc;
+}
+.z_roll .margin .z_rool_hui .z_right:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  bottom: -10px;
+  left: -10px;
+  z-index: 10;
+  box-shadow: 0px -2px 5px 1px #ccc;
+}
+.z_roll .margin .z_rool_red {
+  background: red;
+  color: #fff;
+}
+.z_roll .margin .z_rool_red .wjsfont {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 40px;
+}
+.z_new .z_left {
+  font-size: 20px;
+  position: relative;
+  border-bottom: 1px solid #000;
+}
+.z_new .z_left:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  position: absolute;
+  bottom: -5px;
+  right: -8px;
+}
+.z_new .z_centent {
+  position: relative;
+}
+.z_new .z_centent .z_line {
+  width: 1px;
+  height: 466px;
+  border: 1px dashed #666;
+  position: absolute;
+  left: 92px;
+  top: 0;
+}
+.z_new .z_centent ul {
+  list-style: none;
+}
+.z_new .z_centent ul li {
+  margin-bottom: 60px;
+}
+.z_new .z_centent ul li a {
+  display: inline-block;
+  background-color: #cccccc;
+  border-radius: 50%;
+  padding: 12px;
+  color: #fff;
+}
+.z_new .z_centent ul li a span {
+  font-size: 53PX;
+}
+.z_new .z_centent ul li a:hover {
+  background: red;
+}
+.z_monad {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+}
+.z_monad h2 {
+  text-align: center;
+}
+.z_monad .row {
+  text-align: center;
+}
+.z_monad .row a {
+  margin-left: 13px;
+  color: #666;
+}
+.z_monad .row a span {
+  font-size: 82px;
+}
+.z_monad .row a:hover {
+  color: #337ab7;
+}

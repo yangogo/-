@@ -1,0 +1,277 @@
+@z_color:rgb(119, 119, 119);
+
+//手机微金所
+.z_logo {
+  border-bottom: 1px solid #000;
+  .row {
+    >div{
+      text-align: center;
+      border-right: 1px solid #000;
+      height: 40px;
+      line-height: 40px;
+      color: @z_color;
+      .z_logon{
+        color:@z_color;
+      }
+      &:last-child{
+      border-right: 0px solid #000;
+      }
+      &:first-child{
+        a {
+          position: relative;
+          color: @z_color;
+          img {
+            position: absolute;
+            top: 20px;
+            left: -2px;
+            display: none;
+            z-index: 10;
+          }
+          &:hover>img{
+              display: block;
+            }
+        }
+      }
+    }
+   
+  }
+}
+//首页导航
+.z_nav {
+  margin-bottom: 0px;
+  .wjhend{
+    height: 80px;
+    line-height: 80px;
+    padding-top: 7px;
+    padding-bottom: 0; 
+    .wjsfont {
+      font-size: 70px;
+      color: @z_color;
+      &:first-child{
+        color: red;
+      }
+    }
+  }
+ 
+  .nav {
+    a {
+      padding-top: 0;
+      padding-bottom: 0;
+      height: 80px;
+      line-height: 80px;
+      color: @z_color;
+    }
+  }
+}
+//轮播图 
+.z_slideshow {
+  img {
+    width: 100%;
+  }
+}
+
+//支付保障
+.z_pay {
+  padding: 50px 0 ;
+  a {
+    color: @z_color;
+    margin-top: 30px;
+    span {
+      font-size: 42px;
+    }
+    h4 {
+      font-size: 22px
+    }
+    &:hover {
+      color: red;
+      
+    }
+  }
+}
+//排队
+.z_line{
+ 
+  line-height: 76px;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+  .pull-left{
+    a{
+      color: red;
+      border-bottom: 1px dashed red;
+    }
+  }
+}
+//各种卷
+.z_roll {
+  .tab-content{
+    padding-top: 30px;
+  }
+  .margin{
+    //灰色的点券
+   .z_rool_hui {
+     color: @z_color;
+     position: relative; 
+     display: block;
+    width: 100%;
+    padding: 23px 80px 3px 0;
+    box-shadow: 0 0 20px 0 #ccc;
+    margin-top: 20px;
+    .z_left{
+      border-right: 1px dashed #ccc;
+      h4{
+        text-align: center;
+      }
+      .left {
+        padding-left: 10px;
+        width: 50%;
+      }
+      .right {
+        padding-right: 10px;
+        text-align: right;
+        width: 50%;
+       
+      }
+    }
+    .z_right{
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 80px; 
+      height: 100%;
+      .z_rate{
+        text-align: center;
+        margin-top: 62px;
+        button {
+          width: 20px;
+          padding: 0;
+          &:first-child{
+            color: rgb(18, 243, 55);
+            border-color: rgb(18, 243, 55);
+          }
+          &:nth-child(2){
+            color: red;
+            border-color: red;
+          }
+        }
+      }
+      &:before {
+        content:"";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: #fff;
+        top: -10px;
+        left: -10px;
+        box-shadow: 0px 2px 5px 1px #ccc;
+      }
+      &:after {
+        content:"";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: #fff;
+        bottom: -10px;
+        left: -10px;
+        z-index: 10;
+        box-shadow: 0px -2px 5px 1px #ccc;
+      }
+    }
+   }
+   //红色点券
+   .z_rool_red {
+     background: red;
+     color: #fff;
+     .wjsfont {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 40px;
+     }
+   }
+  }
+}
+
+
+//新闻模块
+.z_new {
+ 
+  //左侧模块
+  .z_left {
+    font-size: 20px;
+    position: relative;
+    border-bottom: 1px solid #000;
+    &:before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: 1px solid #000;
+      position: absolute;
+      bottom: -5px;
+      right: -8px;
+    }
+  }
+  //中部模块
+  .z_centent{
+    position: relative;
+    .z_line {
+      width: 1px;
+      height: 466px;
+      border: 1px dashed #666;
+      position: absolute;
+      left: 92px;
+      top: 0;
+    }
+    ul {
+      list-style: none;
+      li{
+        margin-bottom: 60px;
+        a{
+          display: inline-block;
+          background-color: #cccccc;
+          border-radius: 50%;
+          padding: 12px;
+          color: #fff;        
+          span {
+            font-size: 53PX;
+          }
+          &:hover {
+            background: red;
+          }
+        }
+      }
+    }
+  }
+  //右侧模块
+  .z_right {}
+}
+
+//合作单位
+.z_monad {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  h2{
+    text-align: center;
+  }
+  .row {
+    text-align: center;
+    a {
+      // border: 1px solid #000;
+      margin-left: 13px;
+      color: #666;
+      span {
+        font-size: 82px;
+      }
+      &:hover{
+        color :#337ab7
+
+        
+      }
+    }
+  }
+}
+
+
+
